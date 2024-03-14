@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+    .page-layout .left-section p, .page-layout .left-section a {
+        font-size: 13px;
+    }
+
+    .page-layout .left-section h3 {
+        font-size: 18px;
+    }
+
+    .page-layout .left-section > img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .page-layout .left-section .name_position h1 {
+        font-size: 28px;
+    }
+
+    .page-layout .left-section .name_position p {
+        font-size: 13px;
+    }
+
+    .page-layout .left-section .personal-info .personal-item img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .page-layout .right-section .right-item h2 {
+        font-size: 25px;
+    }
+
+    .page-layout .right-section .right-item p {
+        font-size: 15px;
+    }
+
+    .page-layout .right-section .right-item h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .page-layout {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .page-layout .left-section .personal-info {
+        padding-bottom: 25px;
+    }
+
+    .page-layout .right-section {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-layout .right-section .right-item h4 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .page-layout .right-section .right-item p {
+        text-align: left;
+    }
+
+    .page-layout .right-section .right-item .title-year_item {
+        flex-direction: column;
+    }
+}
